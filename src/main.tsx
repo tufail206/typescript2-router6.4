@@ -7,7 +7,7 @@ import '@fontsource/roboto/700.css';
 import './index.css'
 
 import  {createBrowserRouter ,RouterProvider,createRoutesFromElements} from "react-router-dom"
-import { Component as routers } from './routes';
+import { routers } from './routes';
 const router=createBrowserRouter(createRoutesFromElements(routers))
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

@@ -1,7 +1,6 @@
 const appPaths = {
     ROOT: '/',
-    LAYOUT: '/',
-    PRODUCTS: '/products',
+    PRODUCTS: '/',
     PRODUCTDETAILS: 'products/:id'
   
 };
